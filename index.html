@@ -1,0 +1,60 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>ReworkPlan</title>
+		<meta name="keywords" content="reworkpaln, duoduo369" />
+		<link rel="shortcut icon" href="http://cdn.reworkplan.com/avator.jpg">
+		<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700italic' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="http://cdn.reworkplan.com/demo.css" />
+		<link rel="stylesheet" type="text/css" href="http://cdn.reworkplan.com/game.css" />
+		<script type="text/javascript" src="http://cdn.reworkplan.com/TweenMax.min.js"></script>
+		<script type="text/javascript" src="http://cdn.reworkplan.com/three.min.js"></script>
+		<script type="text/javascript" src="http://cdn.reworkplan.com/game.js" /></script>
+		<!--[if IE]>
+		  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="game-holder" id="gameHolder">
+			<div class="header">
+				<h1>ReworkPlan</h1>
+				<h2>重新定义工作方式</h2>
+				<div class="score" id="score">
+					<div class="score__content" id="level">
+						<div class="score__label">等级</div>
+						<div class="score__value score__value--level" id="levelValue">1</div>
+						<svg class="level-circle" id="levelCircle" viewbox="0 0 200 200">
+							<circle id="levelCircleBgr" r="80" cx="100" cy="100" fill="none" stroke="#d1b790" stroke-width="24px" />
+							<circle id="levelCircleStroke" r="80" cx="100" cy="100" fill="none" #f25346 stroke="#68c3c0" stroke-width="14px" stroke-dasharray="502" />
+						</svg>
+					</div>
+					<div class="score__content" id="dist">
+						<div class="score__label">飞行距离</div>
+						<div class="score__value score__value--dist" id="distValue">000</div>
+					</div>
+					<div class="score__content" id="energy">
+						<div class="score__label">能量</div>
+						<div class="score__value score__value--energy" id="energyValue">
+							<div class="energy-bar" id="energyBar"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="world" id="world"></div>
+			<div class="message message--replay" id="replayMessage">点击重试</div>
+			<div class="message message--instructions" id="instructions">抓取蓝色小球<span>躲避红色小球</span></div>
+		</div>
+		<div class="partisan">
+			<svg class="partisan__bg" viewBox="0 0 500 188" preserveAspectRatio="none" width="100%" height="100%" aria-hidden="true">
+				<polygon points="0 154 123.39 0 235.78 14.79 365.6 28.9 436.24 114.93 500 188 0 188 0 154" fill="#bed730"/>
+				<polygon points="0 188 108.84 18.17 347.91 26.79 500 188 365.6 28.9 123.39 0 0 154 0 188" fill="#dde465"/>
+			</svg>
+			<a class="partisan__link" href="https://github.com/duoduo369" rel="nofollow">
+				<img class="partisan__img" src="http://cdn.reworkplan.com/github.jpg" />
+				<h3 class="partisan__title">微信: duoduo369</h3>
+			</a>
+		</div>
+	</body>
+</html>
